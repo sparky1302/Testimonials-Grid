@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background: #EDF2F8;
 }
 .main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(250px, auto);
     grid-gap: 1rem;
-    margin: 5rem 8rem 0 8rem;
+    margin: 10rem 12rem 0 12rem;
 }
 .main > div{
     padding: 1rem;
